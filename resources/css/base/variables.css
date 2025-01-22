@@ -1,6 +1,7 @@
 :root {
   --bg-color: #000012;
-  --primary-color: #1c7aaf;
+  --primary-color: #7BBEFD;
+  --bs-link-color-rgb: 123, 190, 253;
 
   --bs-box-shadow: 0 0.5rem 1rem rgba(150, 150, 150, 0.15);
   --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(150, 150, 150, 0.075);
