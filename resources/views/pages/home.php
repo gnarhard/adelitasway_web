@@ -1,7 +1,18 @@
 <!-- Hero Section -->
 <section class="text-white text-center py-5 vh-100" style="background-image: url(/images/adelitas_way_lubbock_tx.webp); background-size: cover; background-position: center;">
-    <div class="container">
-        <img src="/images/adelitas_way_logo.webp" alt="Adelitas Way Logo" style="filter: invert(1);" class="mt-5 mw-100 object-fit-contain">
+    <div class="container h-100">
+        <div class="d-flex flex-column justify-content-between h-100">
+            <div class="row">
+                <div class="col">
+                    <img src="/images/adelitas_way_logo.webp" alt="Adelitas Way Logo" style="filter: invert(1);" class="mt-5 mw-100 object-fit-contain">
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col">
+                    <a href="https://ffm.to/xbr6k5v" target="_blank" class="btn btn-lg rounded-0 text-light border-light btn-light-blue-bg">LISTEN</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -120,7 +131,9 @@
         if (moreText.style.maxHeight) {
             moreText.style.maxHeight = null;
             readMoreLink.textContent = "read more...";
-            document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+            document.getElementById("about").scrollIntoView({
+                behavior: "smooth"
+            });
         } else {
             moreText.style.maxHeight = moreText.scrollHeight + "px";
             readMoreLink.textContent = "read less...";
