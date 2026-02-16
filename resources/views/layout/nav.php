@@ -14,10 +14,10 @@
                     <a class="nav-link" href="#tour">TOUR</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://merch.adelitaswaymusic.com/">MERCH</a>
+                    <a class="nav-link" target="_blank" href="https://merch.adelitaswaymusic.com/">VIP EXCLUSIVES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://adelitaswaymerch.bigcartel.com/">EXCLUSIVES</a>
+                    <a class="nav-link" target="_blank" href="https://adelitaswaymerch.bigcartel.com/">MERCH</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#connect">CONNECT</a>
