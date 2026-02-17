@@ -25,7 +25,7 @@
     <div class="container py-5">
         <div class="row mx-auto">
             <div class="col-md-6 mb-3 mb-md-0 pe-md-1">
-                <img src="/images/adelitas_way_trio.jpeg" alt="Adelitas Way" class="mw-100 object-fit-contain shadow rounded">
+                <img src="/images/adelitas_way_bozeman.JPG" alt="Adelitas Way" class="mw-100 object-fit-contain shadow rounded">
             </div>
             <style>
                 #moreText {
