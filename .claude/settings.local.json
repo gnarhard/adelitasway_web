@@ -6,7 +6,9 @@
       "mcp__dart__list_devices",
       "Bash(git -C /Users/gerhard/Code/Sites/Valet/adelitaswaymusic status --short)",
       "Bash(git -C /Users/gerhard/Code/Sites/Valet/adelitaswaymusic log --oneline -5)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(git -C /Users/gerhard/Code/Sites/Valet/adelitaswaymusic show --stat 5c12a8e)",
+      "Bash(git -C /Users/gerhard/Code/Sites/Valet/adelitaswaymusic show --stat 42099d8)"
     ]
   },
   "enableAllProjectMcpServers": true,
