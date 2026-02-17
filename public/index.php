@@ -1,1 +1,1 @@
-<?php include 'resources/views/layout/app.php'; ?>
+<?php include __DIR__ . '/resources/views/layout/app.php'; ?>

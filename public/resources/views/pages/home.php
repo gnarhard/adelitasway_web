@@ -1,10 +1,10 @@
 <!-- Hero Section -->
-<section class="text-white text-center py-5 vh-100" style="background-image: url(/public/images/adelitas_way_lubbock_tx.webp); background-size: cover; background-position: center;">
+<section class="text-white text-center py-5 vh-100" style="background-image: url(/images/adelitas_way_lubbock_tx.webp); background-size: cover; background-position: center;">
     <div class="container h-100">
         <div class="d-flex flex-column justify-content-center h-100">
             <div class="row">
                 <div class="col">
-                    <img src="/public/images/adelitas_way_logo.webp" alt="Adelitas Way Logo" style="filter: invert(1);" class="mt-5 mw-100 object-fit-contain">
+                    <img src="/images/adelitas_way_logo.webp" alt="Adelitas Way Logo" style="filter: invert(1);" class="mt-5 mw-100 object-fit-contain">
                 </div>
             </div>
             <div class="row">
@@ -25,7 +25,7 @@
     <div class="container py-5">
         <div class="row mx-auto">
             <div class="col-md-6 mb-3 mb-md-0 pe-md-1">
-                <img src="/public/images/adelitas_way_trio.jpeg" alt="Adelitas Way" class="mw-100 object-fit-contain shadow rounded">
+                <img src="/images/adelitas_way_trio.jpeg" alt="Adelitas Way" class="mw-100 object-fit-contain shadow rounded">
             </div>
             <style>
                 #moreText {
