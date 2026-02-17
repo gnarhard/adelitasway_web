@@ -18,7 +18,7 @@
                  style="filter: invert(1);"
                  class="w-72 sm:w-96 max-w-full object-contain drop-shadow-2xl">
 
-            <p class="text-white text-shadow text-xs tracking-[0.4em] uppercase">1 Billion Streams &amp; Counting</p>
+            <p class="text-white text-shadow text-xs tracking-[0.4em] uppercase">20 Years of Hard Rock Music</p>
 
             <div class="flex flex-wrap gap-4 justify-center mt-2">
                 <a href="https://ffm.to/xbr6k5v" target="_blank" class="btn-primary">
