@@ -113,7 +113,7 @@
     <div class="grid grid-cols-3 h-48 sm:h-64">
         <div class="bg-cover bg-center"
              style="background-image: url({{ asset('images/adelitas_way_rapid_city.webp') }});"></div>
-        <div class="bg-cover bg-center"
+        <div class="bg-cover bg-top"
              style="background-image: url({{ asset('images/adelitas_way_trio.webp') }});"></div>
         <div class="bg-cover bg-top"
              style="background-image: url({{ asset('images/adelitas_way_machine_shop.jpg') }});"></div>
