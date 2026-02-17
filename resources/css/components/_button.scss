@@ -1,0 +1,15 @@
+.btn {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    &:hover {
+        background-color: var(--primary-color);
+    }
+
+    &-light-blue-bg {
+        background-color: rgb(123, 190, 253);
+
+        &:hover {
+            background-color: var(--secondary-color);
+        }
+    }
+}
