@@ -20,9 +20,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
     </noscript>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    @vite(['resources/css/site.scss'])
+    @vite(['resources/css/app.css'])
 
     <!-- Google Tag Manager -->
     <script>
@@ -39,55 +37,67 @@
     </script>
     <!-- End Google Tag Manager -->
 </head>
-<body>
+<body class="antialiased">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WBDKL43Q"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100 shadow" style="z-index: 1">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="{{ route('home') }}">
-                <img src="{{ asset('images/adelitas_way_icon.png') }}" alt="Adelitas Way Icon" width="70" height="70">
+    <nav x-data="{ open: false, scrolled: false }"
+         @scroll.window="scrolled = window.scrollY > 60"
+         :class="scrolled ? 'bg-black/95 backdrop-blur-md border-b border-white/10 shadow-lg' : 'bg-gradient-to-b from-black/80 to-transparent'"
+         class="fixed w-full top-0 z-50 transition-all duration-500">
+        <div class="max-w-7xl mx-auto px-6 flex items-center justify-between h-[70px]">
+            <a href="{{ route('home') }}" class="shrink-0">
+                <img src="{{ asset('images/adelitas_way_icon.png') }}" alt="Adelitas Way" width="52" height="52" class="opacity-90 hover:opacity-100 transition-opacity">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button @click="open = !open"
+                    class="lg:hidden text-white/70 hover:text-white p-1.5 transition-colors focus:outline-none"
+                    aria-label="Toggle navigation">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path x-show="!open" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/>
+                    <path x-show="open" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#tour">TOUR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://merch.adelitaswaymusic.com/">VIP EXCLUSIVES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://adelitaswaymerch.bigcartel.com/">MERCH</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#connect">CONNECT</a>
-                    </li>
-                </ul>
+            <div class="hidden lg:flex items-center gap-8">
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#tour" class="nav-link">TOUR</a>
+                <a href="https://merch.adelitaswaymusic.com/" target="_blank" class="nav-link">VIP EXCLUSIVES</a>
+                <a href="https://adelitaswaymerch.bigcartel.com/" class="nav-link">MERCH</a>
+                <a href="#connect" class="nav-link">CONNECT</a>
             </div>
+        </div>
+        <div x-show="open"
+             @click.away="open = false"
+             x-transition:enter="transition ease-out duration-200"
+             x-transition:enter-start="opacity-0 -translate-y-2"
+             x-transition:enter-end="opacity-100 translate-y-0"
+             x-transition:leave="transition ease-in duration-150"
+             x-transition:leave-start="opacity-100 translate-y-0"
+             x-transition:leave-end="opacity-0 -translate-y-2"
+             class="lg:hidden bg-black/97 backdrop-blur-md px-6 pb-6 border-t border-white/10">
+            <a href="#about" @click="open = false" class="mobile-nav-link">ABOUT</a>
+            <a href="#tour" @click="open = false" class="mobile-nav-link">TOUR</a>
+            <a href="https://merch.adelitaswaymusic.com/" target="_blank" class="mobile-nav-link">VIP EXCLUSIVES</a>
+            <a href="https://adelitaswaymerch.bigcartel.com/" class="mobile-nav-link">MERCH</a>
+            <a href="#connect" @click="open = false" class="mobile-nav-link">CONNECT</a>
         </div>
     </nav>
 
     <main>
         @yield('content')
 
-        <footer class="py-4" style="background-color: #000012">
-            <div class="container text-center">
-                <p class="mb-0 text-light">&copy; {{ date('Y') }} Adelitas Way</p>
-                <p class="mb-0 text-light">designed + developed by <a href="https://gnarhard.com">gnarhard</a></p>
+        <footer class="py-10 bg-black border-t border-white/10">
+            <div class="max-w-7xl mx-auto px-6 text-center">
+                <img src="{{ asset('images/adelitas_way_icon.png') }}" alt="Adelitas Way" width="36" height="36" class="mx-auto mb-5 opacity-30">
+                <p class="text-white/50 text-xs tracking-[0.25em] uppercase mb-1">&copy; {{ date('Y') }} Adelitas Way. All rights reserved.</p>
+                <p class="text-white/35 text-xs tracking-[0.2em] uppercase">Designed &amp; Developed by <a href="https://gnarhard.com" target="_blank" class="hover:text-white/60 transition-colors">gnarhard</a></p>
             </div>
         </footer>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/fbd2e4f78f.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     @stack('scripts')
 </body>

@@ -1,6 +1,13 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "mcp__laravel-boost__get-absolute-url",
+      "mcp__dart__list_devices"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "laravel-boost"
-  ],
-  "enableAllProjectMcpServers": true
+  ]
 }
