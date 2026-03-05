@@ -3290,6 +3290,7 @@ class ComposerStaticInit9f2cf5bb456ab8e10c25c319589a1ad3
         'Laravel\\Boost\\Install\\McpWriter' => __DIR__ . '/..' . '/laravel/boost/src/Install/McpWriter.php',
         'Laravel\\Boost\\Install\\Mcp\\FileWriter' => __DIR__ . '/..' . '/laravel/boost/src/Install/Mcp/FileWriter.php',
         'Laravel\\Boost\\Install\\Mcp\\TomlFileWriter' => __DIR__ . '/..' . '/laravel/boost/src/Install/Mcp/TomlFileWriter.php',
+        'Laravel\\Boost\\Install\\Nightwatch' => __DIR__ . '/..' . '/laravel/boost/src/Install/Nightwatch.php',
         'Laravel\\Boost\\Install\\Sail' => __DIR__ . '/..' . '/laravel/boost/src/Install/Sail.php',
         'Laravel\\Boost\\Install\\Skill' => __DIR__ . '/..' . '/laravel/boost/src/Install/Skill.php',
         'Laravel\\Boost\\Install\\SkillComposer' => __DIR__ . '/..' . '/laravel/boost/src/Install/SkillComposer.php',

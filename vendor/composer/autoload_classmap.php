@@ -2627,6 +2627,7 @@ return array(
     'Laravel\\Boost\\Install\\McpWriter' => $vendorDir . '/laravel/boost/src/Install/McpWriter.php',
     'Laravel\\Boost\\Install\\Mcp\\FileWriter' => $vendorDir . '/laravel/boost/src/Install/Mcp/FileWriter.php',
     'Laravel\\Boost\\Install\\Mcp\\TomlFileWriter' => $vendorDir . '/laravel/boost/src/Install/Mcp/TomlFileWriter.php',
+    'Laravel\\Boost\\Install\\Nightwatch' => $vendorDir . '/laravel/boost/src/Install/Nightwatch.php',
     'Laravel\\Boost\\Install\\Sail' => $vendorDir . '/laravel/boost/src/Install/Sail.php',
     'Laravel\\Boost\\Install\\Skill' => $vendorDir . '/laravel/boost/src/Install/Skill.php',
     'Laravel\\Boost\\Install\\SkillComposer' => $vendorDir . '/laravel/boost/src/Install/SkillComposer.php',
