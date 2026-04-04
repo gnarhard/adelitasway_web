@@ -25,13 +25,14 @@
     --green: #1db954;
   }
 
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; overflow-x: hidden; }
 
   body {
     font-family: 'Inter', -apple-system, sans-serif;
     background: var(--bg-dark);
     color: var(--text-primary);
     line-height: 1.6;
+    overflow-x: hidden;
   }
 
   /* Inline SVG icon helper */
@@ -229,7 +230,7 @@
 
   .phone-frame {
     width: 280px;
-    min-width: 280px;
+    max-width: 100%;
     height: 590px;
     background: var(--bg-dark);
     border-radius: 36px;
@@ -516,7 +517,8 @@
   .app-np-artist { font-size: 10px; color: var(--text-muted); }
 
   /* Revenue table */
-  .rev-table { width: 100%; border-collapse: collapse; margin-top: 24px; }
+  .rev-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-top: 24px; }
+  .rev-table { width: 100%; border-collapse: collapse; min-width: 560px; }
   .rev-table th, .rev-table td { padding: 14px 16px; text-align: left; border-bottom: 1px solid var(--border); font-size: 14px; }
   .rev-table th { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); font-weight: 600; }
   .rev-table td { color: var(--text-secondary); }
@@ -567,6 +569,17 @@
     .stats-row { grid-template-columns: 1fr 1fr; }
     .flow { flex-direction: column; }
     .flow-arrow { transform: rotate(90deg); }
+    .rev-table th, .rev-table td { padding: 10px 8px; font-size: 13px; }
+  }
+
+  @@media (max-width: 480px) {
+    h1 { font-size: 28px; }
+    h2 { font-size: 22px; }
+    .section, .section-full { padding: 40px 16px; }
+    .hero { padding: 48px 16px 40px; }
+    .hero-meta { gap: 16px; }
+    .stats-row { grid-template-columns: 1fr; }
+    .stat .num { font-size: 28px; }
   }
 </style>
 </head>
@@ -1057,6 +1070,7 @@
   <h2>Conservative Projections</h2>
   <p class="subtitle">Based on modest conversion from the existing audience. No growth required. The bundle upsell rate assumes 30% of lyric sheet buyers upgrade.</p>
 
+  <div class="rev-table-wrap">
   <table class="rev-table">
     <thead><tr><th>Product</th><th>Price</th><th>Monthly Volume</th><th>Monthly Rev</th></tr></thead>
     <tbody>
@@ -1070,6 +1084,7 @@
       <tr><td><strong>Total (excl. VIP)</strong></td><td></td><td><strong>47 orders</strong></td><td>$9,949/mo</td></tr>
     </tbody>
   </table>
+  </div>
 
   <div class="stats-row">
     <div class="stat"><div class="num">$119K</div><div class="label">Annual Potential</div></div>
