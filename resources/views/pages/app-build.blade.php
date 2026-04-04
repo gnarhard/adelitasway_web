@@ -97,7 +97,7 @@
 <header class="min-h-[50vh] flex flex-col justify-center px-5 sm:px-10 pt-28 pb-20 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10" style="font-family: 'Inter', sans-serif;">
   <div class="text-xs font-semibold tracking-[2px] uppercase text-[#7BBEFD] mb-5">Product Design Overview</div>
   <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight leading-[1.1] text-[#f0f0f0]" style="font-family: 'Inter', sans-serif;">Adelitas Way <span class="text-[#7BBEFD]">App</span></h1>
-  <p class="text-lg text-[#b8b8d0] mt-4 max-w-[600px] leading-relaxed">Your own app. Free for fans to download, built around your direct connection with them. The free stuff &mdash; music, posts, going live &mdash; keeps people coming back. When they want something personal from you, that's where the money is.</p>
+  <p class="text-lg text-[#b8b8d0] mt-4 max-w-[600px] leading-relaxed">Your own app. Free for fans to download, built around your direct connection with them. The free stuff (music, posts, going live) keeps people coming back. When they want something personal from you, that's where the money is.</p>
   <div class="flex flex-wrap gap-5 sm:gap-8 mt-10">
     <div class="text-[13px] text-[#8888a0]">Platform <span class="text-[#b8b8d0] font-medium">iOS + Android (Flutter)</span></div>
     <div class="text-[13px] text-[#8888a0]">Price <span class="text-[#b8b8d0] font-medium">Free to download</span></div>
@@ -113,7 +113,7 @@
 <section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
   <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">The Visual</h3>
   <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Images Pending</h2>
-  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">The app is going to be full of real imagery &mdash; live shots, band photos, album art, behind-the-scenes stuff. More photos and artwork will be added as the build progresses.</p>
+  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">The app is going to be full of real imagery: live shots, band photos, album art, behind-the-scenes stuff. More photos and artwork will be added as the build progresses.</p>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mt-8">
     <div class="sm:col-span-2"><img src="/images/adelitas_way_boseman_mt.webp" alt="Adelitas Way live in Bozeman, MT" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
     <div><img src="/images/adelitas_way_trio.webp" alt="Adelitas Way trio" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
@@ -121,14 +121,14 @@
     <div><img src="/images/adelitas_way_rapid_city.webp" alt="Adelitas Way in Rapid City" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
     <div class="sm:col-span-2 lg:col-span-1"><img src="/images/adelitas_way_machine_shop.jpg" alt="Adelitas Way at The Machine Shop" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover object-top rounded-xl"></div>
   </div>
-  <div class="mt-5 p-4 sm:p-5 bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl text-sm text-[#b8b8d0] leading-relaxed">More band photography, album artwork, and behind-the-scenes shots will be worked into the app throughout development. The mockups on this page use wireframes for now &mdash; the final product will be loaded with real visuals.</div>
+  <div class="mt-5 p-4 sm:p-5 bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl text-sm text-[#b8b8d0] leading-relaxed">More band photography, album artwork, and behind-the-scenes shots will be worked into the app throughout development. The mockups on this page use wireframes for now. The final product will be loaded with real visuals.</div>
 </section>
 
 {{-- FAN JOURNEY --}}
 <section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
   <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">How It Works</h3>
   <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">The Fan Journey</h2>
-  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">Every step leads to the next one naturally. Fans show up for the free stuff, they get hooked, and when they're ready to buy something personal &mdash; lyrics, a video, a call &mdash; it's right there waiting.</p>
+  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">Every step leads to the next one naturally. Fans show up for the free stuff, they get hooked, and when they're ready to buy something personal (lyrics, a video, a call), it's right there waiting.</p>
   <div class="flex flex-col lg:flex-row items-center justify-center gap-0 mt-8">
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-5 sm:p-6 text-center w-full lg:w-[200px]">
       <div class="text-[11px] font-bold text-[#7BBEFD] tracking-[1.5px] uppercase mb-2">Step 1</div>
@@ -145,7 +145,7 @@
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-5 sm:p-6 text-center w-full lg:w-[200px]">
       <div class="text-[11px] font-bold text-[#7BBEFD] tracking-[1.5px] uppercase mb-2">Step 3</div>
       <div class="text-[15px] font-bold text-[#f0f0f0] mb-1">First Unlock</div>
-      <div class="text-xs text-[#b8b8d0] leading-relaxed">While they're listening, they see "handwritten lyrics available." It's a nudge, not a hard sell.</div>
+      <div class="text-xs text-[#b8b8d0] leading-relaxed">While browsing the catelog they'll see unreleased or early-access songs available to unlock for $5. While they're listening, they'll see "handwritten lyrics available." It's a nudge, not a hard sell.</div>
     </div>
     <div class="text-xl text-[#8888a0] px-2 py-1 lg:rotate-0 rotate-90">&rarr;</div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-5 sm:p-6 text-center w-full lg:w-[200px]">
@@ -160,12 +160,12 @@
 <section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
   <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">Free Tier</h3>
   <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Give Away the Music, Keep the Audience</h2>
-  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">The music streams free in the app. That's the whole play. Fans open the app to listen, they see your posts, they catch you going live &mdash; and while they're already there, the premium stuff is one tap away. No per-play royalties to deal with, no distributor splits. The music keeps them coming back; the personal stuff makes the money.</p>
+  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">The music streams free in the app unless it's unreleased or early-access. That's the whole play. Fans open the app to listen, they see your posts, they catch you going live. While they're already there, the premium stuff is one tap away. No per-play royalties to deal with, no distributor splits. The music keeps them coming back; the personal and exclusive stuff makes the money.</p>
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-8">
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
       <span class="inline-block text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-[#1db954]/15 text-[#1db954] uppercase tracking-wider mb-3">Free</span>
       <h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Your Independent Catalog</h4>
-      <p class="text-sm text-[#b8b8d0] leading-relaxed">All of Getaway, Notorious, Shine On, and Power &mdash; streaming with playlists and offline listening. Fans play it here instead of Spotify, and every time they open the app they're one tap from buying something.</p>
+      <p class="text-sm text-[#b8b8d0] leading-relaxed">All of Getaway, Notorious, Shine On, and Power, streaming with playlists and offline listening. Fans play it here instead of Spotify, and every time they open the app they're one tap from buying something.</p>
     </div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
       <span class="inline-block text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-[#1db954]/15 text-[#1db954] uppercase tracking-wider mb-3">Free</span>
@@ -175,7 +175,7 @@
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
       <span class="inline-block text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-[#1db954]/15 text-[#1db954] uppercase tracking-wider mb-3">Free</span>
       <h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Early Access Drops</h4>
-      <p class="text-sm text-[#b8b8d0] leading-relaxed">New music drops here before it hits streaming platforms. Your inner circle gets it first. That alone is reason enough for people to download &mdash; and every drop is a chance to put a lyric sheet or Song Story in front of them.</p>
+      <p class="text-sm text-[#b8b8d0] leading-relaxed">New music drops here before it hits streaming platforms. Your inner circle gets it first. That alone is reason enough for people to download, and every drop is a chance to put a lyric sheet or Song Story in front of them.</p>
     </div>
   </div>
 </section>
@@ -184,24 +184,24 @@
 <section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
   <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">Unlocks</h3>
   <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Where the Money Is</h2>
-  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">While fans are using the free stuff, they see things they can buy &mdash; but it never feels like a paywall. These are things only you can make. Nobody else can write those lyrics or record that video.</p>
+  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">While fans are using the free stuff, they see things they can buy, but it never feels like a paywall. These are things only you can make. Nobody else can write those lyrics or record that video.</p>
 
   {{-- $5 unreleased callout --}}
   <div class="mt-8 p-7 sm:p-8 bg-linear-to-br from-[#7BBEFD]/[0.06] to-[#7BBEFD]/[0.02] border-[1.5px] border-[#7BBEFD]/20 rounded-2xl">
     <div class="text-[32px] font-extrabold text-[#7BBEFD] mb-1">$5 per song</div>
-    <h4 class="text-xl font-bold text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Unreleased &amp; Early-Access Songs &mdash; The Easy Win</h4>
-    <p class="text-[15px] text-[#b8b8d0] leading-relaxed max-w-[700px]">You've got demos, alternate versions, tracks that didn't make an album, stuff from the vault. Drop them in the app, charge $5 to unlock each one. Same thing with new songs &mdash; before they hit Spotify, fans can pay $5 to hear them early in the app. Fans who are already listening see a locked track and think "it's five bucks, why not." Low price, easy decision, and it gives people a reason to keep checking back for new drops. You can release one a week, one a month, whatever &mdash; every drop is a small payday and a reason to open the app.</p>
+    <h4 class="text-xl font-bold text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Unreleased &amp; Unreleased &amp; Early-Access Songs: The Easy Win</h4>
+    <p class="text-[15px] text-[#b8b8d0] leading-relaxed max-w-[700px]">You've got demos, alternate versions, tracks that didn't make an album, stuff from the vault. Drop them in the app, charge $5 to unlock each one. Same thing with new songs. Before they hit Spotify, fans can pay $5 to hear them early in the app. Fans who are already listening see a locked track and think "it's five bucks, why not." Low price, easy decision, and it gives people a reason to keep checking back for new drops. You can release one a week, one a month, whatever. Every drop is a small payday and a reason to open the app.</p>
   </div>
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
       <h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Handwritten Lyric Sheets</h4>
-      <p class="text-sm text-[#b8b8d0] leading-relaxed">Already proven &mdash; now expanded to every song in the independent catalog. Personalized dedications available. A subtle prompt shows up on the now-playing screen while they're listening.</p>
+      <p class="text-sm text-[#b8b8d0] leading-relaxed">Already proven, now expanded to every song in the independent catalog. Personalized dedications available. A subtle prompt shows up on the now-playing screen while they're listening.</p>
       <div class="text-2xl font-bold text-[#7BBEFD] mt-3">$99 &ndash; $149</div>
     </div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
       <h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Personal Video Dedications</h4>
-      <p class="text-sm text-[#b8b8d0] leading-relaxed">Birthday shoutouts, pep talks, personal messages. The fan writes what they want, you record it whenever you've got a minute. No Cameo taking a cut &mdash; this is all yours.</p>
+      <p class="text-sm text-[#b8b8d0] leading-relaxed">Birthday shoutouts, pep talks, personal messages. The fan writes what they want, you record it whenever you've got a minute. No Cameo taking a cut. This is all yours.</p>
       <div class="text-2xl font-bold text-[#7BBEFD] mt-3">$99 &ndash; $149</div>
     </div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
@@ -216,12 +216,12 @@
     </div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
       <h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Live Video Streams</h4>
-      <p class="text-sm text-[#b8b8d0] leading-relaxed">Go live right in the app &mdash; Q&amp;As, acoustic sessions, backstage on tour, whatever. Free to watch, but while you're talking fans see the unlock options. You mention a song, the lyric sheet pops up.</p>
+      <p class="text-sm text-[#b8b8d0] leading-relaxed">Go live right in the app. Q&amp;As, acoustic sessions, backstage on tour, whatever. Free to watch, but while you're talking fans see the unlock options. You mention a song, the lyric sheet pops up.</p>
       <div class="text-2xl font-bold text-[#1db954] mt-3">Free (sells everything else)</div>
     </div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
       <h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">VIP Tour Packages</h4>
-      <p class="text-sm text-[#b8b8d0] leading-relaxed">Meet &amp; greet, early entry, signed merch &mdash; tied to specific dates on tour. Sold right in the Shows tab next to the ticket link. Limited per show so it stays special.</p>
+      <p class="text-sm text-[#b8b8d0] leading-relaxed">Meet &amp; greet, early entry, signed merch, all tied to specific dates on tour. Sold right in the Shows tab next to the ticket link. Limited per show so it stays special.</p>
       <div class="text-2xl font-bold text-[#7BBEFD] mt-3">$75 &ndash; $99</div>
     </div>
   </div>
@@ -230,8 +230,8 @@
 {{-- BUNDLES --}}
 <section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
   <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">Bundles</h3>
-  <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Bundles &mdash; Get Them to Spend More</h2>
-  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">When someone taps to buy a lyric sheet, they see the bundle option right next to it. "Add a personal video and save." No popups, no pressure &mdash; just a better deal sitting right there if they want it.</p>
+  <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Bundles: Get Them to Spend More</h2>
+  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">When someone taps to buy a lyric sheet, they see the bundle option right next to it. "Add a personal video and save." No popups, no pressure, just a better deal sitting right there if they want it.</p>
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-8">
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
       <span class="inline-block text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-[#d4a843]/15 text-[#d4a843] uppercase tracking-wider mb-3">Most Common</span>
@@ -242,7 +242,7 @@
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
       <span class="inline-block text-[10px] font-semibold px-2.5 py-0.5 rounded-full bg-[#d4a843]/15 text-[#d4a843] uppercase tracking-wider mb-3">Gift Bundle</span>
       <h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Fan Package</h4>
-      <p class="text-sm text-[#b8b8d0] leading-relaxed">Lyric sheet + video shoutout + acoustic voice memo. The "give me everything" option. Perfect for birthdays, holidays, anniversaries &mdash; people buy these as gifts.</p>
+      <p class="text-sm text-[#b8b8d0] leading-relaxed">Lyric sheet + video shoutout + acoustic voice memo. The "give me everything" option. Perfect for birthdays, holidays, anniversaries. People buy these as gifts.</p>
       <div class="text-2xl font-bold text-[#7BBEFD] mt-3">$399</div>
     </div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7">
@@ -259,7 +259,7 @@
   <div class="max-w-[1200px] mx-auto">
     <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">App Screens</h3>
     <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">What It Actually Looks Like</h2>
-    <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">These are wireframes &mdash; the layout and flow, not the final look. The real app will have album artwork, band photos, your branding, and all the visual stuff that makes it feel like an Adelitas Way experience. More detailed mockups with real imagery are coming.</p>
+    <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">These are wireframes showing the layout and flow, not the final look. The real app will have album artwork, band photos, your branding, and all the visual stuff that makes it feel like an Adelitas Way experience. More detailed mockups with real imagery are coming.</p>
 
     <div class="flex flex-wrap justify-center items-start gap-8 mt-10">
 
@@ -511,7 +511,7 @@
       <div class="text-xs text-[#8888a0] mt-1 uppercase tracking-wider">Annual Potential</div>
     </div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-6 text-center">
-      <div class="text-3xl sm:text-4xl font-extrabold text-[#7BBEFD] tracking-tight">~2hrs</div>
+      <div class="text-3xl sm:text-4xl font-extrabold text-[#7BBEFD] tracking-tight">~8hrs</div>
       <div class="text-xs text-[#8888a0] mt-1 uppercase tracking-wider">Rick's Weekly Time</div>
     </div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-6 text-center">
@@ -529,11 +529,11 @@
 <section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
   <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">Content Strategy</h3>
   <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">No Label Needed</h2>
-  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">The first three albums are locked up with Virgin. That's fine &mdash; this doesn't need them.</p>
+  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">The first three albums are locked up with Virgin. That's fine. This doesn't need them.</p>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
-    <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">They're not buying catalog access</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">They can stream the old stuff on Spotify for free. What they're buying is you &mdash; handwritten lyrics, personal videos, voice memos. No label's permission needed for any of it.</p></div>
+    <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">They're not buying catalog access</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">They can stream the old stuff on Spotify for free. What they're buying is you: handwritten lyrics, personal videos, voice memos. No label's permission needed for any of it.</p></div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">4 albums you own outright</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">Getaway, Notorious, Shine On, and Power are all yours. Four albums of streamable content, Song Stories, lyric sheets, and behind-the-scenes material. That's plenty to launch with.</p></div>
-    <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">The story writes itself</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">"The real Adelitas Way. No label, no middleman, straight from Rick." Being independent isn't a limitation &mdash; it's the whole point.</p></div>
+    <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">The story writes itself</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">"The real Adelitas Way. No label, no middleman, straight from Rick." Being independent isn't a limitation, it's the whole point.</p></div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">New music drops here first</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">Every future release hits the app before it goes to streaming. That's the reason people download it, and the reason they keep coming back.</p></div>
   </div>
 </section>
@@ -542,12 +542,12 @@
 <section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
   <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">Why Free Streaming</h3>
   <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Keep the Money Simple</h2>
-  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">Making the music free inside the app isn't just about getting fans in &mdash; it means you don't have to deal with any streaming payout headaches.</p>
+  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">Making the music free inside the app isn't just about getting fans in. It also means you don't have to deal with any streaming payout headaches.</p>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-8">
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">No royalty math</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">Normal streaming means tracking every play and splitting pennies between writers, performers, publishers, and labels. Free in-app streaming skips all of that. Zero complexity.</p></div>
-    <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">One place the money goes</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">Digital stuff &mdash; song unlocks, video bundles &mdash; goes through Apple and Google's in-app purchase systems. Physical goods like shipped lyric sheets and VIP packages run through Stripe. Two payment channels, but the money all lands in your accounts. No chasing invoices.</p></div>
+    <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">One place the money goes</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">Digital stuff (song unlocks, video bundles) goes through Apple and Google's in-app purchase systems. Physical goods like shipped lyric sheets and VIP packages run through Stripe. Two payment channels, but the money all lands in your accounts. No chasing invoices.</p></div>
     <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">The music sells the other stuff</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">People open the app to listen. While they're listening, they see the personal stuff they can buy. Every play is a chance for someone to grab a lyric sheet or a Song Story. The music pays for itself.</p></div>
-    <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">No middlemen</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">No DistroKid, no TuneCore, no label taking a cut of streaming revenue. The music lives in the app, and the real products make the money. Apple and Google take their 15% cut on in-app purchases &mdash; that's the cost of being in both stores &mdash; but the rest stays with you. No other middlemen.</p></div>
+    <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">No middlemen</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">No DistroKid, no TuneCore, no label taking a cut of streaming revenue. The music lives in the app, and the real products make the money. Apple and Google take their 15% cut on in-app purchases (that's the cost of being in both stores), but the rest stays with you. No other middlemen.</p></div>
   </div>
 </section>
 
@@ -556,7 +556,7 @@
   <div class="max-w-[1200px] mx-auto">
     <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">Your Dashboard</h3>
     <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Run It All From Your Phone</h2>
-    <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">You're on tour, you're in the van, you're backstage. You're not sitting at a laptop. Everything &mdash; filling orders, uploading a song, going live, adding show dates &mdash; works from your phone, one-handed. That's non-negotiable.</p>
+    <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">You're on tour, you're in the van, you're backstage. You're not sitting at a laptop. Everything (filling orders, uploading a song, going live, adding show dates) works from your phone, one-handed. That's non-negotiable.</p>
 
     <div class="flex flex-wrap justify-center items-start gap-8 mt-10">
 
@@ -645,11 +645,11 @@
     {{-- Dashboard capabilities --}}
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10">
       <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">Fill Orders</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">New orders show up with the fan's name, what they want, and the dedication. Tap to open camera and record a video. Tap to mark a lyric sheet done and ship it. Bundles show up at the top so you knock out the big ones first.</p></div>
-      <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">Upload Content</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">Upload a new song, record a video, drop a voice memo, write a post &mdash; all from the phone. Camera and mic are one tap away. Drafts save automatically. Post it when you're ready.</p></div>
+      <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">Upload Content</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">Upload a new song, record a video, drop a voice memo, write a post. All from the phone. Camera and mic are one tap away. Drafts save automatically. Post it when you're ready.</p></div>
       <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">Go Live</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">One button. Fans get a push notification, chat lights up, and the unlock prompts show up on their end automatically. You just talk to your people.</p></div>
-      <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">Manage Shows</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">Add a show &mdash; venue, date, ticket link, VIP details. Set how many VIP spots per show. Check the sales. All from the phone while you're on the road.</p></div>
-      <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">See Your Money</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">What you made today, this week, this month. Which products are selling, which songs are driving the most purchases. No spreadsheets &mdash; just a clean number on your phone.</p></div>
-      <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">Push Notifications</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">One tap to hit every fan at once: new song, going live, new tour date, limited bundle drop. That's your direct line &mdash; no algorithm deciding who sees it.</p></div>
+      <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">Manage Shows</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">Add a show: venue, date, ticket link, VIP details. Set how many VIP spots per show. Check the sales. All from the phone while you're on the road.</p></div>
+      <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">See Your Money</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">What you made today, this week, this month. Which products are selling, which songs are driving the most purchases. No spreadsheets, just a clean number on your phone.</p></div>
+      <div class="bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl p-7"><h4 class="text-base font-semibold text-[#f0f0f0] mb-2" style="font-family:'Inter',sans-serif">Push Notifications</h4><p class="text-sm text-[#b8b8d0] leading-relaxed">One tap to hit every fan at once: new song, going live, new tour date, limited bundle drop. That's your direct line. No algorithm deciding who sees it.</p></div>
     </div>
   </div>
 </section>
