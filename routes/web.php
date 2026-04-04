@@ -6,6 +6,8 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+Route::view('app-build', 'pages.app-build')->name('app-build');
+
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
