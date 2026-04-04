@@ -22,6 +22,8 @@
 
     @vite(['resources/css/app.css'])
 
+    @stack('head')
+
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
