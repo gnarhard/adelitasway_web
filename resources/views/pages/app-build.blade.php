@@ -109,21 +109,6 @@
 {{-- Wrapper for all sections using Inter --}}
 <div style="font-family: 'Inter', sans-serif;">
 
-{{-- PHOTO GALLERY --}}
-<section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
-  <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">The Visual</h3>
-  <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Images Pending</h2>
-  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">The app is going to be full of real imagery: live shots, band photos, album art, behind-the-scenes stuff. More photos and artwork will be added as the build progresses.</p>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mt-8">
-    <div class="sm:col-span-2"><img src="/images/adelitas_way_boseman_mt.webp" alt="Adelitas Way live in Bozeman, MT" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
-    <div><img src="/images/adelitas_way_trio.webp" alt="Adelitas Way trio" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
-    <div><img src="/images/adelitas_way_lubbock_tx.webp" alt="Adelitas Way in Lubbock, TX" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
-    <div><img src="/images/adelitas_way_rapid_city.webp" alt="Adelitas Way in Rapid City" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
-    <div class="sm:col-span-2 lg:col-span-1"><img src="/images/adelitas_way_machine_shop.jpg" alt="Adelitas Way at The Machine Shop" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover object-top rounded-xl"></div>
-  </div>
-  <div class="mt-5 p-4 sm:p-5 bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl text-sm text-[#b8b8d0] leading-relaxed">More band photography, album artwork, and behind-the-scenes shots will be worked into the app throughout development. The mockups on this page use wireframes for now. The final product will be loaded with real visuals.</div>
-</section>
-
 {{-- FAN JOURNEY --}}
 <section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
   <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">How It Works</h3>
@@ -426,6 +411,21 @@
 
     </div>
   </div>
+</section>
+
+{{-- PHOTO GALLERY --}}
+<section class="py-16 sm:py-20 px-5 sm:px-10 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10">
+  <h3 class="text-xs font-semibold uppercase tracking-[1.5px] text-[#7BBEFD] mb-2">The Visual</h3>
+  <h2 class="text-2xl sm:text-[32px] font-bold tracking-tight text-[#f0f0f0] mb-2" style="font-family: 'Inter', sans-serif;">Images Pending</h2>
+  <p class="text-[17px] text-[#b8b8d0] mt-2 max-w-[700px] leading-relaxed">The app is going to be full of real imagery: live shots, band photos, album art, behind-the-scenes stuff. More photos and artwork will be added as the build progresses.</p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mt-8">
+    <div class="sm:col-span-2"><img src="/images/adelitas_way_boseman_mt.webp" alt="Adelitas Way live in Bozeman, MT" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
+    <div><img src="/images/adelitas_way_trio.webp" alt="Adelitas Way trio" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
+    <div><img src="/images/adelitas_way_lubbock_tx.webp" alt="Adelitas Way in Lubbock, TX" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
+    <div><img src="/images/adelitas_way_rapid_city.webp" alt="Adelitas Way in Rapid City" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover rounded-xl"></div>
+    <div class="sm:col-span-2 lg:col-span-1"><img src="/images/adelitas_way_machine_shop.jpg" alt="Adelitas Way at The Machine Shop" class="w-full h-[180px] sm:h-[200px] lg:h-[260px] object-cover object-top rounded-xl"></div>
+  </div>
+  <div class="mt-5 p-4 sm:p-5 bg-[#0e0e20] border border-[#7BBEFD]/10 rounded-xl text-sm text-[#b8b8d0] leading-relaxed">More band photography, album artwork, and behind-the-scenes shots will be worked into the app throughout development. The mockups on this page use wireframes for now. The final product will be loaded with real visuals.</div>
 </section>
 
 {{-- REVENUE MODEL --}}
