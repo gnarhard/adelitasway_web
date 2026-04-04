@@ -95,7 +95,7 @@
 
 {{-- HERO --}}
 <header class="min-h-[50vh] flex flex-col justify-center px-5 sm:px-10 pt-28 pb-20 max-w-[1200px] mx-auto border-b border-[#7BBEFD]/10" style="font-family: 'Inter', sans-serif;">
-  <div class="text-xs font-semibold tracking-[2px] uppercase text-[#7BBEFD] mb-5">Product Design Overview</div>
+  <div class="text-xs font-semibold tracking-[2px] uppercase text-[#7BBEFD] mb-5">App Overview</div>
   <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight leading-[1.1] text-[#f0f0f0]" style="font-family: 'Inter', sans-serif;">Adelitas Way <span class="text-[#7BBEFD]">App</span></h1>
   <p class="text-lg text-[#b8b8d0] mt-4 max-w-[600px] leading-relaxed">Your own app. Free for fans to download, built around your direct connection with them. The free stuff (music, posts, going live) keeps people coming back. When they want something personal from you, that's where the money is.</p>
   <div class="flex flex-wrap gap-5 sm:gap-8 mt-10">
